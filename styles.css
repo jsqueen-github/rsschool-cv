@@ -9,7 +9,7 @@
 .hero {
   height: 100vh;
   width: 100%;
-  background-image: url("/bg.jpg");
+  background-image: url("bg.jpg");
   background-size: cover;
 	background-position: center;
 }
@@ -121,7 +121,7 @@ h3{
 .about{
 	width: 100%;
 	padding: 100px 0px;
-	background: url("/bg-about.png") center center no-repeat;
+	background: url("bg-about.png") center center no-repeat;
 }
 .about img{
 	width: 100%;
@@ -169,7 +169,7 @@ h3{
 /*education + work*/
 
 .education{
-	background: url("/bg-education.png") center center no-repeat;
+	background: url("bg-education.png") center center no-repeat;
 	width: 100%;
 	padding: 30px 0px;
 }
@@ -181,7 +181,7 @@ h3{
 }
 
 .skills{
-	background: url("/bg-education.png") center center no-repeat;
+	background: url("bg-education.png") center center no-repeat;
 	width: 100%;
 	padding: 10px 0px;
 }
@@ -264,7 +264,7 @@ h5{
 .code{
 	width: 100%;
   height: auto;
-	background: url("/bg-education.png") center center no-repeat;
+	background: url("bg-education.png") center center no-repeat;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -296,7 +296,7 @@ footer{
 	position: relative;
 	width: 100%;
 	height: 400px;
-  background: url("/spare-bg.png") center center no-repeat;
+  background: url("spare-bg.png") center center no-repeat;
 	display: flex;
 	flex-direction: column;
 	align-items: center;

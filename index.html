@@ -40,9 +40,9 @@
       <img src="about.jpg" alt="my about photo">
       <div class="about-text">
 				<h2>About</h2>
-				<h5>Developer <span>& Designer</span></h5>
-				<p>I am 25 years old. I’m passionate about learning, design, languages, and coding. 
-          I worked both as a language tutor and a designer. I tried myself in sinology and aerospace engineering. 
+				<h5>Developer <span>AND Designer</span></h5>
+				<p>I am 25 years old. I’m passionate about learning, design, languages, and coding.
+          I worked both as a language tutor and a designer. I tried myself in sinology and aerospace engineering.
           Now I’m a software engineer.</p>
 				<!-- <button type="button">Let's Talk</button> -->
 			</div>
@@ -68,15 +68,15 @@
           <p class="title">2022</p>
           <ul>
             <li>
-              Senior Developer | <a href="https://eleko.vercel.app/" target="_blank">Ekelo</a> 
+              Senior Developer | <a href="https://eleko.vercel.app/" target="_blank">Ekelo</a>
             </li>
           </ul>
             <p>Front-end dev (React, JavaScript, GraphQL)</p>
-          
+
             <p class="title">2022</p>
           <ul>
             <li>
-              Senior Developer | <a href="https://friendforest.xyz/" target="_blank">Friend Forest</a> 
+              Senior Developer | <a href="https://friendforest.xyz/" target="_blank">Friend Forest</a>
             </li>
           </ul>
             <p>Front-end dev (React, JQuery)</p>
@@ -84,13 +84,13 @@
           <p class="title">2022</p>
           <ul>
             <li>
-              Junior Developer | <a href="https://buffbees.io/" target="_blank">Buff Bees</a> 
+              Junior Developer | <a href="https://buffbees.io/" target="_blank">Buff Bees</a>
             </li>
-	  </ul>
-             <p>Front-end dev (Next.JS, Typescript). Whitepaper design. Bridging backend to front-end</p>
-	</div>
-    </div>
-  </section>
+          </ul>
+          <p>Front-end dev (Next.JS, Typescript). Whitepaper design. Bridging backend to front-end</p>
+        </div>
+      </div>
+    </section>
 
   <!-- Education -->
 
@@ -211,8 +211,8 @@
       <div class="about-text">
         <h2>Code Example</h2>
         <p>A chunk of code from my React App along with some Web3 Integration to connect Metamask:</p>
-        
-        <div class="coding"> 
+
+        <div class="coding">
           <pre>
             <code>
               async function checkIfWalletIsConnected(onConnected) {
@@ -220,18 +220,18 @@
                   const accounts = await window.ethereum.request({
                     method: "eth_accounts",
                   });
-              
+
                   if (accounts.length > 0) {
                     const account = accounts[0];
                     onConnected(account);
                     return;
                   }
-              
+
                   if (isMobileDevice()) {
                     await connect(onConnected);
                   }
                 }
-              }                
+              }
             </code>
           </pre>
         </div>
@@ -240,7 +240,7 @@
   </section>
 </main>
 
-  
+
 	<!--Footer-->
 	<footer>
 		<div id="contact" class="title">
@@ -255,6 +255,6 @@
     <a href="https://rs.school/" target="_blank"><img class="rs-school" src="rs.jpg" alt="rsschool logo"></a>
     <p>2022</p>
 	</footer>
-  
+
 </body>
 </html>
